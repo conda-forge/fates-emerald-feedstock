@@ -17,7 +17,7 @@ fortran_compiler_version:
 hdf5:
 - 1.10.6
 mpich:
-- '3.3'
+- '3'
 netcdf_fortran:
 - '4.5'
 pin_run_as_build:
