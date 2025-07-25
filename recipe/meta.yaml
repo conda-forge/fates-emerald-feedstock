@@ -15,6 +15,7 @@ build:
 
 requirements:
   build:
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - cmake
   host:
@@ -26,7 +27,6 @@ requirements:
     - tcsh
     - python
     - {{ compiler('c') }}
-    - {{ stdlib("c") }}
     - {{ compiler('fortran') }}
     - netcdf-fortran
     - mpich
